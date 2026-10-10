@@ -1,0 +1,11 @@
+import { copyFile, writeFile } from 'node:fs/promises';
+import { loadEnv } from 'vite';
+const env = { ...loadEnv('production', process.cwd(), ''), ...process.env };
+const url = (env.VITE_SITE_URL || '').replace(/\/$/, '');
+if (url && !/^https:\/\//.test(url)) throw new Error('VITE_SITE_URL precisa ser uma URL HTTPS completa.');
+await copyFile('dist/index.html', 'dist/404.html');
+await writeFile('dist/.nojekyll', '');
+const escapeXml = value => value.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[c]));
+await writeFile('dist/robots.txt', url ? `User-agent: *\nAllow: /\nSitemap: ${url}/sitemap.xml\n` : 'User-agent: *\nDisallow: /\n');
+await writeFile('dist/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${url ? `<url><loc>${escapeXml(url)}/</loc></url>` : ''}</urlset>\n`);
+console.log('SPA fallback, robots e sitemap preparados' + (url ? ` para ${url}` : '; indexação suspensa até configurar VITE_SITE_URL') + '.');

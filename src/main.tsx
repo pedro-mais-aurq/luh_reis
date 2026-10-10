@@ -1,0 +1,12 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import '@fontsource/poppins/latin-400.css';
+import '@fontsource/poppins/latin-500.css';
+import '@fontsource/poppins/latin-600.css';
+import '@fontsource/coming-soon/latin-400.css';
+import { Router } from './app/router';
+import './styles/tokens.css';
+import './styles/global.css';
+import './styles/landing.css';
+import './styles/training-public.css';
+createRoot(document.getElementById('root')!).render(<StrictMode><Router /></StrictMode>);

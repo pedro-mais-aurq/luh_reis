@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "a-00",
+      "file": "media/exercises/a-00.svg",
+      "alt": "CARDIO DA SUA PREFERÊNCIA (PODE SER FEITO DEPOIS DO TREINO)",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Cardio não especificado: composição editorial de modalidade, sem prescrever execução."
+    },
+    {
+      "id": "a-01",
+      "file": "media/exercises/a-01.svg",
+      "alt": "MOBILIDADE E ATIVAÇÃO DE GLÚTEOS",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "pending",
+      "reviewNote": "Mobilidade e ativação não especificam movimentos, sequência ou posicionamento."
+    },
+    {
+      "id": "a-02",
+      "file": "media/exercises/a-02.gif",
+      "alt": "AGACHAMENTO BARRA LIVRE PERNAS PARALELAS",
+      "origin": "Arquivo fornecido pelo cliente: Gifs - Bonus (1)/Membros Inferiores (54)/Agachamento livre com barra (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "a-03",
+      "file": "media/exercises/a-03.gif",
+      "alt": "AGACHAMENTO SUMÔ COM HALTER",
+      "origin": "Arquivo fornecido pelo cliente: MEMBROS INFERIORES E GLÚTEOS (1)/Agachamento sumo com halter (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "a-04",
+      "file": "media/exercises/a-04.svg",
+      "alt": "AGACHAMENTO BÚLGARO NO BANCO COM HALTERES E STEP NA PERNA DA FRENTE",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "pending",
+      "reviewNote": "Búlgaro com apoio traseiro e step frontal: alturas, posicionamento e variante devem ser confirmados."
+    },
+    {
+      "id": "a-05",
+      "file": "media/exercises/a-05.gif",
+      "alt": "ABDOMINAL PARCIAL NO SOLO COM PESO",
+      "origin": "Arquivo fornecido pelo cliente: ABDOMEN CORE (1)/Crunch com carga (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "a-06",
+      "file": "media/exercises/a-06.gif",
+      "alt": "STIFF COM BARRA MÉDIA PERNAS LEVEMENTE ABDUZIDAS",
+      "origin": "Arquivo fornecido pelo cliente: Gifs - Bonus (1)/Membros Inferiores (54)/stiff com barra (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "a-07",
+      "file": "media/exercises/a-07.svg",
+      "alt": "ABDOMINAL REMADOR NO SOLO",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Esquema editorial da pose e do equipamento. A execução, amplitude, apoios e orientação devem ser revisados por profissional habilitado antes de publicação como demonstração."
+    },
+    {
+      "id": "a-08",
+      "file": "media/exercises/a-08.gif",
+      "alt": "CADEIRA ABDUTORA",
+      "origin": "Arquivo fornecido pelo cliente: MEMBROS INFERIORES E GLÚTEOS (1)/Cadeira abdutora (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "a-09",
+      "file": "media/exercises/a-09.gif",
+      "alt": "ABDOMINAL PARCIAL NA MÁQUINA",
+      "origin": "Arquivo fornecido pelo cliente: ABDOMEN CORE (1)/ABS máquina (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "b-00",
+      "file": "media/exercises/b-00.svg",
+      "alt": "CORRIDA OU BIKE",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Composição editorial de corrida e bicicleta, sem prescrever postura ou modalidade."
+    },
+    {
+      "id": "b-01",
+      "file": "media/exercises/b-01.gif",
+      "alt": "DESENVOLVIMENTO ABERTO COM HALTERES",
+      "origin": "Arquivo fornecido pelo cliente: DELTÓIDES (1)/Desenvolvimento com halteres (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "b-02",
+      "file": "media/exercises/b-02.gif",
+      "alt": "DESENVOLVIMENTO ABERTO UNILATERAL",
+      "origin": "Arquivo fornecido pelo cliente: DELTÓIDES (1)/Desenvolvimento unilateral (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "b-03",
+      "file": "media/exercises/b-03.svg",
+      "alt": "ABDOMINAL PERNAS CRUZADAS NO SOLO",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "pending",
+      "reviewNote": "Confirmar qual abdominal com pernas cruzadas e a ação unilateral esperada."
+    },
+    {
+      "id": "b-04",
+      "file": "media/exercises/b-04.gif",
+      "alt": "ABDUÇÃO DE OMBROS COM HALTERES EM PÉ",
+      "origin": "Arquivo fornecido pelo cliente: DELTÓIDES (1)/Elevação lateral 01 (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "b-05",
+      "file": "media/exercises/b-05.gif",
+      "alt": "CRUCIFIXO PEITORAL NO BANCO INCLINADO COM HALTERES",
+      "origin": "Arquivo fornecido pelo cliente: PEITORAL (1)/Crucifixo inclinado com halteres (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "b-06",
+      "file": "media/exercises/b-06.svg",
+      "alt": "ABDOMINAL INFRA NO BANCO INCLINADO",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Esquema editorial da pose e do equipamento. A execução, amplitude, apoios e orientação devem ser revisados por profissional habilitado antes de publicação como demonstração."
+    },
+    {
+      "id": "b-07",
+      "file": "media/exercises/b-07.svg",
+      "alt": "FLEXÃO DE OMBROS COM HALTER UNILATERAL SEGURANDO EM CIMA",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Representação de flexão frontal unilateral com halter; a alternância segurando em cima requer revisão."
+    },
+    {
+      "id": "b-08",
+      "file": "media/exercises/b-08.svg",
+      "alt": "FLEXÃO DE BRAÇOS ABERTO NO SOLO",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Esquema editorial da pose e do equipamento. A execução, amplitude, apoios e orientação devem ser revisados por profissional habilitado antes de publicação como demonstração."
+    },
+    {
+      "id": "b-09",
+      "file": "media/exercises/b-09.gif",
+      "alt": "TRÍCEPS COM BARRA RETA NO CROSS",
+      "origin": "Arquivo fornecido pelo cliente: TRÍCEPS (1)/Triceps pulley pronado (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "b-10",
+      "file": "media/exercises/b-10.gif",
+      "alt": "TRÍCEPS TESTA COM BARRA RETA NO CROSS",
+      "origin": "Arquivo fornecido pelo cliente: TRÍCEPS (1)/Triceps testa no cabo (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "b-11",
+      "file": "media/exercises/b-11.svg",
+      "alt": "ABDOMINAL UNILATERAL COM PESO",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "pending",
+      "reviewNote": "Abdominal unilateral com peso: plano do movimento e posição da carga não estão definidos."
+    },
+    {
+      "id": "c-00",
+      "file": "media/exercises/c-00.svg",
+      "alt": "CARDIO DA SUA PREFERÊNCIA (RITMO MODERADO)",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Cardio não especificado: composição editorial de modalidade, sem prescrever execução."
+    },
+    {
+      "id": "c-01",
+      "file": "media/exercises/c-01.gif",
+      "alt": "CADEIRA EXTENSORA",
+      "origin": "Arquivo fornecido pelo cliente: MEMBROS INFERIORES E GLÚTEOS (1)/Cadeira extensora (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "c-02",
+      "file": "media/exercises/c-02.gif",
+      "alt": "AGACHAMENTO PERNAS PARALELAS NO SMITH OU HACK MACHINE",
+      "origin": "Arquivo fornecido pelo cliente: MEMBROS INFERIORES E GLÚTEOS (1)/Agchamento smith (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "c-03",
+      "file": "media/exercises/c-03.svg",
+      "alt": "AGACHAMENTO PERNAS PARALELAS COM HALTER (CURTAS EMBAIXO)",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "pending",
+      "reviewNote": "Confirmar posição do halter e amplitude das repetições curtas embaixo."
+    },
+    {
+      "id": "c-04",
+      "file": "media/exercises/c-04.svg",
+      "alt": "AGACHAMENTO SOBRE DOIS STEPS COM HALTER",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "pending",
+      "reviewNote": "Dois steps e fase dentro/fora: sequência, apoios e transição ainda precisam de validação."
+    },
+    {
+      "id": "c-05",
+      "file": "media/exercises/c-05.gif",
+      "alt": "ABDOMINAL INFRA NO SOLO",
+      "origin": "Arquivo fornecido pelo cliente: ABDOMEN CORE (1)/Crunch reverso (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "c-06",
+      "file": "media/exercises/c-06.gif",
+      "alt": "LEG PRESS HORIZONTAL PERNAS PARALELAS",
+      "origin": "Arquivo fornecido pelo cliente: MEMBROS INFERIORES E GLÚTEOS (1)/Leg press horizontal (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "c-07",
+      "file": "media/exercises/c-07.gif",
+      "alt": "CADEIRA EXTENSORA",
+      "origin": "Arquivo fornecido pelo cliente: MEMBROS INFERIORES E GLÚTEOS (1)/Cadeira extensora (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "c-08",
+      "file": "media/exercises/c-08.gif",
+      "alt": "CADEIRA ADUTORA",
+      "origin": "Arquivo fornecido pelo cliente: MEMBROS INFERIORES E GLÚTEOS (1)/Cadeira adutora (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "c-09",
+      "file": "media/exercises/c-09.svg",
+      "alt": "FLEXÃO PLANTAR",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "pending",
+      "reviewNote": "Flexão plantar: confirmar aparelho, posição corporal e variante sentada ou em pé."
+    },
+    {
+      "id": "d-00",
+      "file": "media/exercises/d-00.svg",
+      "alt": "CARDIO DA SUA PREFERÊNCIA (BAIXAR PLANILHA)",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Cardio não especificado e planilha externa não fornecida: composição editorial, sem inferir protocolo."
+    },
+    {
+      "id": "d-01",
+      "file": "media/exercises/d-01.gif",
+      "alt": "PUXADA ABERTA NO PULLEY",
+      "origin": "Arquivo fornecido pelo cliente: COSTAS E TRAPÉZIO (1)/wide-grip-lat-pulldown (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "d-02",
+      "file": "media/exercises/d-02.gif",
+      "alt": "ROSCA BÍCEPS PEGADA NEUTRA COM HALTERES SEGURANDO NO MEIO",
+      "origin": "Arquivo fornecido pelo cliente: Gifs - Bonus (1)/Bíceps (34)/rosca neutra com halteres (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "d-03",
+      "file": "media/exercises/d-03.gif",
+      "alt": "REMADA ABERTA NA MÁQUINA",
+      "origin": "Arquivo fornecido pelo cliente: Gifs - Bonus (1)/Costas (55)/remada maquina pronada (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "d-04",
+      "file": "media/exercises/d-04.gif",
+      "alt": "ABDOMINAL PARCIAL PERNAS EM 90°",
+      "origin": "Arquivo fornecido pelo cliente: ABDOMEN CORE (1)/Crunch pernas elevadas (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "d-05",
+      "file": "media/exercises/d-05.gif",
+      "alt": "REMADA FECHADA COM HALTERES",
+      "origin": "Arquivo fornecido pelo cliente: COSTAS E TRAPÉZIO (1)/Remada com halteres (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "d-06",
+      "file": "media/exercises/d-06.gif",
+      "alt": "CRUCIFIXO INVERTIDO NA MÁQUINA OU NO CROSS",
+      "origin": "Arquivo fornecido pelo cliente: DELTÓIDES (1)/Crucifixo invertido na máqina (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "d-07",
+      "file": "media/exercises/d-07.jpg",
+      "alt": "PRANCHA VENTRAL NA BOLA OU NO SOLO",
+      "origin": "Arquivo fornecido pelo cliente: ABDOMEN CORE (1)/Prancha (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "d-08",
+      "file": "media/exercises/d-08.gif",
+      "alt": "ROSCA BÍCEPS COM HALTERES",
+      "origin": "Arquivo fornecido pelo cliente: Gifs - Bonus (1)/Bíceps (34)/rosca unilateral com halteres (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "d-09",
+      "file": "media/exercises/d-09.svg",
+      "alt": "REMADA UNILATERAL NO CROSS SENTADA NO BANCO",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Esquema editorial da pose e do equipamento. A execução, amplitude, apoios e orientação devem ser revisados por profissional habilitado antes de publicação como demonstração."
+    },
+    {
+      "id": "e-00",
+      "file": "media/exercises/e-00.svg",
+      "alt": "CARDIO DA SUA PREFERÊNCIA (RITMO MODERADO)",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Cardio não especificado: composição editorial de modalidade, sem prescrever execução."
+    },
+    {
+      "id": "e-01",
+      "file": "media/exercises/e-01.gif",
+      "alt": "ELEVAÇÃO PÉLVICA COM BARRA MÉDIA OU NA MÁQUINA",
+      "origin": "Arquivo fornecido pelo cliente: MEMBROS INFERIORES E GLÚTEOS (1)/barbell-hip-thrust (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "e-02",
+      "file": "media/exercises/e-02.svg",
+      "alt": "RDL COM BARRA OU HALTER",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Representação apenas da opção barra; alternativa halter não ilustrada."
+    },
+    {
+      "id": "e-03",
+      "file": "media/exercises/e-03.svg",
+      "alt": "AGACHAMENTO UNILATERAL NO SMITH SEM COLOCAR O PÉ",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "pending",
+      "reviewNote": "Expressão sem colocar o pé não define qual apoio deve ser retirado; não foi inferida uma pose."
+    },
+    {
+      "id": "e-04",
+      "file": "media/exercises/e-04.svg",
+      "alt": "MESA FLEXORA (SOBE COM AS DUAS E DESCE COM UMA)",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Esquema de flexão de joelhos unilateral; não demonstra a sequência completa sobe com duas/desce com uma."
+    },
+    {
+      "id": "e-05",
+      "file": "media/exercises/e-05.svg",
+      "alt": "ABDOMINAL VELA NO SOLO",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Esquema editorial da pose e do equipamento. A execução, amplitude, apoios e orientação devem ser revisados por profissional habilitado antes de publicação como demonstração."
+    },
+    {
+      "id": "e-06",
+      "file": "media/exercises/e-06.gif",
+      "alt": "LEG PRESS 45° UNILATERAL",
+      "origin": "Arquivo fornecido pelo cliente: MEMBROS INFERIORES E GLÚTEOS (1)/Leg press 45 unilateral (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "e-07",
+      "file": "media/exercises/e-07.svg",
+      "alt": "EXTENSÃO DE QUADRIL NO CROSS PERNA FLEXIONADA",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Esquema editorial da pose e do equipamento. A execução, amplitude, apoios e orientação devem ser revisados por profissional habilitado antes de publicação como demonstração."
+    },
+    {
+      "id": "e-08",
+      "file": "media/exercises/e-08.gif",
+      "alt": "ABDOMINAL NA MÁQUINA",
+      "origin": "Arquivo fornecido pelo cliente: ABDOMEN CORE (1)/ABS máquina (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "f-00",
+      "file": "media/exercises/f-00.svg",
+      "alt": "CARDIO DA SUA PREFERÊNCIA",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Cardio não especificado: composição editorial de modalidade, sem prescrever execução."
+    },
+    {
+      "id": "f-01",
+      "file": "media/exercises/f-01.gif",
+      "alt": "SUPINO RETO BARRA LIVRE",
+      "origin": "Arquivo fornecido pelo cliente: PEITORAL (1)/Supino barra (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "f-02",
+      "file": "media/exercises/f-02.gif",
+      "alt": "ABDUÇÃO + FLEXÃO DE OMBROS COM HALTERES",
+      "origin": "Arquivo fornecido pelo cliente: DELTÓIDES (1)/Elevação lateral + descida frontal (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "f-03",
+      "file": "media/exercises/f-03.gif",
+      "alt": "DESENVOLVIMENTO ARNOLD COM HALTERES",
+      "origin": "Arquivo fornecido pelo cliente: DELTÓIDES (1)/Arnolda press (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "f-04",
+      "file": "media/exercises/f-04.svg",
+      "alt": "ABDOMINAL REMADOR NO SOLO OU NO BANCO",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Representação apenas da opção solo; alternativa banco não ilustrada."
+    },
+    {
+      "id": "f-05",
+      "file": "media/exercises/f-05.gif",
+      "alt": "ROSCA TRÍCEPS COM CORDA NO CROSS",
+      "origin": "Arquivo fornecido pelo cliente: TRÍCEPS (1)/Triceps cord (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "f-06",
+      "file": "media/exercises/f-06.gif",
+      "alt": "CRUCIFIXO PEITORAL NA MÁQUINA",
+      "origin": "Arquivo fornecido pelo cliente: PEITORAL (1)/Crucifixo máquina (1).gif",
+      "license": "Material fornecido pelo cliente; licença de origem não informada.",
+      "status": "review",
+      "reviewNote": "Mídia fornecida para representar o exercício; observar a prescrição da ficha."
+    },
+    {
+      "id": "f-07",
+      "file": "media/exercises/f-07.svg",
+      "alt": "PUXADA ABERTA COM CORDA NO CROSS",
+      "origin": "Ilustração SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "pending",
+      "reviewNote": "Puxada aberta com corda: confirmar se é puxada dorsal, face pull ou outra execução."
+    },
+    {
+      "id": "cover-a",
+      "file": "media/covers/cover-a.svg",
+      "alt": "Capa editorial original do Treino A: Força em movimento.",
+      "origin": "Composição SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Capa editorial de referência. Pose e equipamento devem passar por revisão profissional; não constitui demonstração técnica."
+    },
+    {
+      "id": "cover-b",
+      "file": "media/covers/cover-b.svg",
+      "alt": "Capa editorial original do Treino B: Presença e constância.",
+      "origin": "Composição SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Capa editorial de referência. Pose e equipamento devem passar por revisão profissional; não constitui demonstração técnica."
+    },
+    {
+      "id": "cover-c",
+      "file": "media/covers/cover-c.svg",
+      "alt": "Capa editorial original do Treino C: Uma repetição por vez.",
+      "origin": "Composição SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Capa editorial de referência. Pose e equipamento devem passar por revisão profissional; não constitui demonstração técnica."
+    },
+    {
+      "id": "cover-d",
+      "file": "media/covers/cover-d.svg",
+      "alt": "Capa editorial original do Treino D: Construa seu ritmo.",
+      "origin": "Composição SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Capa editorial de referência. Pose e equipamento devem passar por revisão profissional; não constitui demonstração técnica."
+    },
+    {
+      "id": "cover-e",
+      "file": "media/covers/cover-e.svg",
+      "alt": "Capa editorial original do Treino E: Controle e intenção.",
+      "origin": "Composição SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Capa editorial de referência. Pose e equipamento devem passar por revisão profissional; não constitui demonstração técnica."
+    },
+    {
+      "id": "cover-f",
+      "file": "media/covers/cover-f.svg",
+      "alt": "Capa editorial original do Treino F: Seu próximo capítulo.",
+      "origin": "Composição SVG original criada por código para o projeto Luh Reis; sem elementos de terceiros.",
+      "license": "CC0-1.0",
+      "status": "review",
+      "reviewNote": "Capa editorial de referência. Pose e equipamento devem passar por revisão profissional; não constitui demonstração técnica."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+:root {
+  --ink: #120c0c;
+  --moss: #3f473a;
+  --brown: #7d3b16;
+  --terracotta: #b95d2a;
+  --beige: #d6cfc4;
+  --paper: #f4f0e8;
+  --surface: #e7e1d7;
+  --text: var(--ink);
+  --text-muted: #5e564c;
+  --border: rgba(18, 12, 12, .2);
+  --border-light: rgba(244, 240, 232, .26);
+  --action: var(--brown);
+  --action-hover: var(--ink);
+  --focus: var(--brown);
+  --font-body: 'Poppins', sans-serif;
+  --font-display: 'Times New Roman', Times, serif;
+  --font-note: 'Coming Soon', cursive;
+  --page-gutter: clamp(24px, 5.2vw, 104px);
+  --section-space: clamp(76px, 8vw, 148px);
+  --ease: cubic-bezier(.22, 1, .36, 1);
+}

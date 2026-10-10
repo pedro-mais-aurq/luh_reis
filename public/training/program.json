@@ -1,0 +1,1939 @@
+{
+  "schemaVersion": 1,
+  "id": "reference-academia-review-v1",
+  "title": "Academia — Emagrecimento e definição",
+  "description": "Seis fichas A–F e sugestões de periodização do documento original. Transcrição de referência para revisão, sem aprovação comercial.",
+  "sourceDocument": "ACADEMIA (EMAGRECIMENTO - DEFINIÇÃO) - PROJETO-2 (3).pdf",
+  "sourceSha256": "1152d1db13cff0f303eb1004179c929cd18be4ca0d8e848bc831d46e3a2cebd0",
+  "sourceAttribution": "Projeto 100% Chata — São Miguelito",
+  "sourceDateLabel": "11/01 A 25/01",
+  "approvalStatus": "draft",
+  "rightsStatus": "pending",
+  "workouts": [
+    {
+      "id": "a",
+      "label": "A",
+      "title": "Treino A",
+      "description": "Ficha de referência transcrita integralmente. Conteúdo em revisão profissional.",
+      "sourcePage": 1,
+      "coverImageId": "cover-a",
+      "instructions": [
+        "OBS 1: AUMENTAR A CARGA A PARTIR DA SEGUNDA SÉRIE EM TODOS OS EXERCÍCIOS",
+        "OBS 2: O AERÓBICO PODE SER FEITO EM QUALQUER HORÁRIO DO DIA / ANTES OU APÓS O TREINO OU EM PERÍODO DIFERENTE"
+      ],
+      "groups": [
+        {
+          "id": "a-group-02",
+          "orders": [
+            2,
+            3
+          ],
+          "method": "SUPERSÉRIE"
+        },
+        {
+          "id": "a-group-04",
+          "orders": [
+            4,
+            5
+          ],
+          "method": "SUPERSÉRIE"
+        },
+        {
+          "id": "a-group-06",
+          "orders": [
+            6,
+            7
+          ],
+          "method": "SUPERSÉRIE"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a-00",
+          "order": 0,
+          "sourceNumber": "00",
+          "name": "CARDIO DA SUA PREFERÊNCIA (PODE SER FEITO DEPOIS DO TREINO)",
+          "sets": "1 X",
+          "repetitions": "40 A 50 MINUTOS",
+          "rest": "",
+          "method": "",
+          "notes": [],
+          "imageId": "a-00",
+          "unilateral": false,
+          "sourcePage": 1,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "cardio"
+        },
+        {
+          "id": "a-01",
+          "order": 1,
+          "sourceNumber": "01",
+          "name": "MOBILIDADE E ATIVAÇÃO DE GLÚTEOS",
+          "sets": "4",
+          "repetitions": "VÍDEO",
+          "rest": "",
+          "method": "",
+          "notes": [],
+          "imageId": "a-01",
+          "unilateral": false,
+          "sourcePage": 1,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "mobility"
+        },
+        {
+          "id": "a-02",
+          "order": 2,
+          "sourceNumber": "02",
+          "name": "AGACHAMENTO BARRA LIVRE PERNAS PARALELAS",
+          "sets": "4",
+          "repetitions": "10 (PARANDO 2 SEG. EMBAIXO EM TODAS / PROGRESSÃO DE CARGA)",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "a-02",
+          "unilateral": false,
+          "sourcePage": 1,
+          "groupId": "a-group-02",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "a-03",
+          "order": 3,
+          "sourceNumber": "03",
+          "name": "AGACHAMENTO SUMÔ COM HALTER",
+          "sets": "4",
+          "repetitions": "6 (PEGA E SOLTA) + 8 (DIRETAS) CALMA QUE ISSO É SÓ O COMEÇO!!",
+          "rest": "1 MINUTO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "a-03",
+          "unilateral": false,
+          "sourcePage": 1,
+          "groupId": "a-group-02",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "a-04",
+          "order": 4,
+          "sourceNumber": "04",
+          "name": "AGACHAMENTO BÚLGARO NO BANCO COM HALTERES E STEP NA PERNA DA FRENTE",
+          "sets": "3",
+          "repetitions": "10 (COM PESO) + 10 (PARANDO EMBAIXO 1 SEG. SEM PESO) - CADA PERNA",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "a-04",
+          "unilateral": true,
+          "sourcePage": 1,
+          "groupId": "a-group-04",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "a-05",
+          "order": 5,
+          "sourceNumber": "05",
+          "name": "ABDOMINAL PARCIAL NO SOLO COM PESO",
+          "sets": "3",
+          "repetitions": "20",
+          "rest": "1 MINUTO E MEIO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "a-05",
+          "unilateral": false,
+          "sourcePage": 1,
+          "groupId": "a-group-04",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "a-06",
+          "order": 6,
+          "sourceNumber": "06",
+          "name": "STIFF COM BARRA MÉDIA PERNAS LEVEMENTE ABDUZIDAS",
+          "sets": "3",
+          "repetitions": "12 (LENTAS)",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "a-06",
+          "unilateral": false,
+          "sourcePage": 1,
+          "groupId": "a-group-06",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "a-07",
+          "order": 7,
+          "sourceNumber": "07",
+          "name": "ABDOMINAL REMADOR NO SOLO",
+          "sets": "3",
+          "repetitions": "20",
+          "rest": "1 MINUTO E MEIO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "a-07",
+          "unilateral": false,
+          "sourcePage": 1,
+          "groupId": "a-group-06",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "a-08",
+          "order": 8,
+          "sourceNumber": "08",
+          "name": "CADEIRA ABDUTORA",
+          "sets": "5",
+          "repetitions": "12 (ISOMETRIA DE 3 SEG. EM TODAS)",
+          "rest": "1 MINUTO",
+          "method": "ISOMETRIA",
+          "notes": [],
+          "imageId": "a-08",
+          "unilateral": false,
+          "sourcePage": 1,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "a-09",
+          "order": 9,
+          "sourceNumber": "09",
+          "name": "ABDOMINAL PARCIAL NA MÁQUINA",
+          "sets": "4",
+          "repetitions": "20",
+          "rest": "45 SEGUNDOS",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "a-09",
+          "unilateral": false,
+          "sourcePage": 1,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "B",
+      "title": "Treino B",
+      "description": "Ficha de referência transcrita integralmente. Conteúdo em revisão profissional.",
+      "sourcePage": 2,
+      "coverImageId": "cover-b",
+      "instructions": [
+        "OBS 1: AUMENTAR A CARGA A PARTIR DA SEGUNDA SÉRIE EM TODOS OS EXERCÍCIOS",
+        "OBS 2: O AERÓBICO PODE SER FEITO EM QUALQUER HORÁRIO DO DIA / ANTES OU APÓS O TREINO OU EM PERÍODO DIFERENTE"
+      ],
+      "groups": [
+        {
+          "id": "b-group-01",
+          "orders": [
+            1,
+            2,
+            3
+          ],
+          "method": "CIRCUITO"
+        },
+        {
+          "id": "b-group-04",
+          "orders": [
+            4,
+            5,
+            6
+          ],
+          "method": "CIRCUITO"
+        },
+        {
+          "id": "b-group-07",
+          "orders": [
+            7,
+            8
+          ],
+          "method": "SUPERSÉRIE"
+        },
+        {
+          "id": "b-group-09",
+          "orders": [
+            9,
+            10
+          ],
+          "method": "SUPERSÉRIE"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b-00",
+          "order": 0,
+          "sourceNumber": "00",
+          "name": "CORRIDA OU BIKE",
+          "sets": "1 X",
+          "repetitions": "40 A 50 MINUTOS",
+          "rest": "",
+          "method": "",
+          "notes": [],
+          "imageId": "b-00",
+          "unilateral": false,
+          "sourcePage": 2,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "cardio"
+        },
+        {
+          "id": "b-01",
+          "order": 1,
+          "sourceNumber": "01",
+          "name": "DESENVOLVIMENTO ABERTO COM HALTERES",
+          "sets": "3",
+          "repetitions": "6 (LENTAS) + 8 (NORMAIS)",
+          "rest": "0",
+          "method": "CIRCUITO",
+          "notes": [],
+          "imageId": "b-01",
+          "unilateral": false,
+          "sourcePage": 2,
+          "groupId": "b-group-01",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-02",
+          "order": 2,
+          "sourceNumber": "02",
+          "name": "DESENVOLVIMENTO ABERTO UNILATERAL",
+          "sets": "3",
+          "repetitions": "10 (DIR.) + 10 (ESQ.)",
+          "rest": "0",
+          "method": "CIRCUITO",
+          "notes": [],
+          "imageId": "b-02",
+          "unilateral": true,
+          "sourcePage": 2,
+          "groupId": "b-group-01",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-03",
+          "order": 3,
+          "sourceNumber": "03",
+          "name": "ABDOMINAL PERNAS CRUZADAS NO SOLO",
+          "sets": "3",
+          "repetitions": "12 (DIR.) + 12 (ESQ.) FOFO NÉ?",
+          "rest": "1 MINUTO E MEIO",
+          "method": "CIRCUITO",
+          "notes": [],
+          "imageId": "b-03",
+          "unilateral": true,
+          "sourcePage": 2,
+          "groupId": "b-group-01",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-04",
+          "order": 4,
+          "sourceNumber": "04",
+          "name": "ABDUÇÃO DE OMBROS COM HALTERES EM PÉ",
+          "sets": "3",
+          "repetitions": "SEGURA 5 SEG. EM ISOMETRIA + 10 REP. + 5 SEG. DE ISOMETRIA (TÁ GOSTANDO? RSRS)",
+          "rest": "0",
+          "method": "CIRCUITO",
+          "notes": [],
+          "imageId": "b-04",
+          "unilateral": false,
+          "sourcePage": 2,
+          "groupId": "b-group-04",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-05",
+          "order": 5,
+          "sourceNumber": "05",
+          "name": "CRUCIFIXO PEITORAL NO BANCO INCLINADO COM HALTERES",
+          "sets": "3",
+          "repetitions": "12",
+          "rest": "0",
+          "method": "CIRCUITO",
+          "notes": [],
+          "imageId": "b-05",
+          "unilateral": false,
+          "sourcePage": 2,
+          "groupId": "b-group-04",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-06",
+          "order": 6,
+          "sourceNumber": "06",
+          "name": "ABDOMINAL INFRA NO BANCO INCLINADO",
+          "sets": "3",
+          "repetitions": "20",
+          "rest": "1 MINUTO E MEIO",
+          "method": "CIRCUITO",
+          "notes": [],
+          "imageId": "b-06",
+          "unilateral": false,
+          "sourcePage": 2,
+          "groupId": "b-group-04",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-07",
+          "order": 7,
+          "sourceNumber": "07",
+          "name": "FLEXÃO DE OMBROS COM HALTER UNILATERAL SEGURANDO EM CIMA",
+          "sets": "4",
+          "repetitions": "10 (DIR.) + 10 (ESQ.)",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "b-07",
+          "unilateral": true,
+          "sourcePage": 2,
+          "groupId": "b-group-07",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-08",
+          "order": 8,
+          "sourceNumber": "08",
+          "name": "FLEXÃO DE BRAÇOS ABERTO NO SOLO",
+          "sets": "4",
+          "repetitions": "12",
+          "rest": "1 MINUTO E MEIO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "b-08",
+          "unilateral": false,
+          "sourcePage": 2,
+          "groupId": "b-group-07",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-09",
+          "order": 9,
+          "sourceNumber": "09",
+          "name": "TRÍCEPS COM BARRA RETA NO CROSS",
+          "sets": "4",
+          "repetitions": "12",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "b-09",
+          "unilateral": false,
+          "sourcePage": 2,
+          "groupId": "b-group-09",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-10",
+          "order": 10,
+          "sourceNumber": "10",
+          "name": "TRÍCEPS TESTA COM BARRA RETA NO CROSS",
+          "sets": "4",
+          "repetitions": "12",
+          "rest": "1 MINUTO E MEIO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "b-10",
+          "unilateral": false,
+          "sourcePage": 2,
+          "groupId": "b-group-09",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "b-11",
+          "order": 11,
+          "sourceNumber": "11",
+          "name": "ABDOMINAL UNILATERAL COM PESO",
+          "sets": "5",
+          "repetitions": "10 (DIR.) + 10 (ESQ.)",
+          "rest": "50 SEGUNDOS",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "b-11",
+          "unilateral": true,
+          "sourcePage": 2,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "C",
+      "title": "Treino C",
+      "description": "Ficha de referência transcrita integralmente. Conteúdo em revisão profissional.",
+      "sourcePage": 3,
+      "coverImageId": "cover-c",
+      "instructions": [
+        "OBS 1: AUMENTAR A CARGA A PARTIR DA SEGUNDA SÉRIE EM TODOS OS EXERCÍCIOS",
+        "OBS 2: O AERÓBICO PODE SER FEITO EM QUALQUER HORÁRIO DO DIA / ANTES OU APÓS O TREINO OU EM PERÍODO DIFERENTE"
+      ],
+      "groups": [
+        {
+          "id": "c-group-02",
+          "orders": [
+            2,
+            3
+          ],
+          "method": "SUPERSÉRIE"
+        },
+        {
+          "id": "c-group-04",
+          "orders": [
+            4,
+            5
+          ],
+          "method": "SUPERSÉRIE"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c-00",
+          "order": 0,
+          "sourceNumber": "00",
+          "name": "CARDIO DA SUA PREFERÊNCIA (RITMO MODERADO)",
+          "sets": "1 X",
+          "repetitions": "50 MINUTOS",
+          "rest": "",
+          "method": "",
+          "notes": [],
+          "imageId": "c-00",
+          "unilateral": false,
+          "sourcePage": 3,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "cardio"
+        },
+        {
+          "id": "c-01",
+          "order": 1,
+          "sourceNumber": "01",
+          "name": "CADEIRA EXTENSORA",
+          "sets": "4",
+          "repetitions": "12 (BOMBEANDO 3 X EMBAIXO EM TODAS) + 5 SEG. DE ISOMETRIA NO FINAL",
+          "rest": "45 SEGUNDOS",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "c-01",
+          "unilateral": false,
+          "sourcePage": 3,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "c-02",
+          "order": 2,
+          "sourceNumber": "02",
+          "name": "AGACHAMENTO PERNAS PARALELAS NO SMITH OU HACK MACHINE",
+          "sets": "4",
+          "repetitions": "12",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "c-02",
+          "unilateral": false,
+          "sourcePage": 3,
+          "groupId": "c-group-02",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "c-03",
+          "order": 3,
+          "sourceNumber": "03",
+          "name": "AGACHAMENTO PERNAS PARALELAS COM HALTER (CURTAS EMBAIXO)",
+          "sets": "4",
+          "repetitions": "15",
+          "rest": "1 MINUTO E MEIO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "c-03",
+          "unilateral": false,
+          "sourcePage": 3,
+          "groupId": "c-group-02",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "c-04",
+          "order": 4,
+          "sourceNumber": "04",
+          "name": "AGACHAMENTO SOBRE DOIS STEPS COM HALTER",
+          "sets": "3",
+          "repetitions": "10 (FIXAS) + 10 (DENTRO E FORA SEM PESO) - CADA PERNA (SEM CHORO BB!)",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "c-04",
+          "unilateral": true,
+          "sourcePage": 3,
+          "groupId": "c-group-04",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "c-05",
+          "order": 5,
+          "sourceNumber": "05",
+          "name": "ABDOMINAL INFRA NO SOLO",
+          "sets": "3",
+          "repetitions": "20",
+          "rest": "2 MINUTOS",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "c-05",
+          "unilateral": false,
+          "sourcePage": 3,
+          "groupId": "c-group-04",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "c-06",
+          "order": 6,
+          "sourceNumber": "06",
+          "name": "LEG PRESS HORIZONTAL PERNAS PARALELAS",
+          "sets": "3",
+          "repetitions": "8 + PAUSA DE 5 SEG. EM ISOMETRIA + 8 REP.",
+          "rest": "1 MINUTO",
+          "method": "ISOMETRIA",
+          "notes": [],
+          "imageId": "c-06",
+          "unilateral": false,
+          "sourcePage": 3,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "c-07",
+          "order": 7,
+          "sourceNumber": "07",
+          "name": "CADEIRA EXTENSORA",
+          "sets": "7",
+          "repetitions": "8 (LENTAS) + 8 (NORMAIS)",
+          "rest": "1 MINUTO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "c-07",
+          "unilateral": false,
+          "sourcePage": 3,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "c-08",
+          "order": 8,
+          "sourceNumber": "08",
+          "name": "CADEIRA ADUTORA",
+          "sets": "3",
+          "repetitions": "12",
+          "rest": "50 SEGUNDOS",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "c-08",
+          "unilateral": false,
+          "sourcePage": 3,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "c-09",
+          "order": 9,
+          "sourceNumber": "09",
+          "name": "FLEXÃO PLANTAR",
+          "sets": "4",
+          "repetitions": "20",
+          "rest": "50 SEGUNDOS",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "c-09",
+          "unilateral": false,
+          "sourcePage": 3,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "D",
+      "title": "Treino D",
+      "description": "Ficha de referência transcrita integralmente. Conteúdo em revisão profissional.",
+      "sourcePage": 4,
+      "coverImageId": "cover-d",
+      "instructions": [
+        "OBS 1: AUMENTAR A CARGA A PARTIR DA SEGUNDA SÉRIE EM TODOS OS EXERCÍCIOS",
+        "OBS 2: O AERÓBICO PODE SER FEITO EM QUALQUER HORÁRIO DO DIA / ANTES OU APÓS O TREINO OU EM PERÍODO DIFERENTE"
+      ],
+      "groups": [
+        {
+          "id": "d-group-01",
+          "orders": [
+            1,
+            2
+          ],
+          "method": "SUPERSÉRIE"
+        },
+        {
+          "id": "d-group-03",
+          "orders": [
+            3,
+            4
+          ],
+          "method": "SUPERSÉRIE"
+        },
+        {
+          "id": "d-group-05",
+          "orders": [
+            5,
+            6,
+            7
+          ],
+          "method": "CIRCUITO"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d-00",
+          "order": 0,
+          "sourceNumber": "00",
+          "name": "CARDIO DA SUA PREFERÊNCIA (BAIXAR PLANILHA)",
+          "sets": "1 X",
+          "repetitions": "50 MINUTOS (MELHOR RITMO POSSÍVEL)",
+          "rest": "",
+          "method": "",
+          "notes": [],
+          "imageId": "d-00",
+          "unilateral": false,
+          "sourcePage": 4,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "cardio"
+        },
+        {
+          "id": "d-01",
+          "order": 1,
+          "sourceNumber": "01",
+          "name": "PUXADA ABERTA NO PULLEY",
+          "sets": "4",
+          "repetitions": "8 + DESCANSO DE 5 SEG. + 8 REP.",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "d-01",
+          "unilateral": false,
+          "sourcePage": 4,
+          "groupId": "d-group-01",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "d-02",
+          "order": 2,
+          "sourceNumber": "02",
+          "name": "ROSCA BÍCEPS PEGADA NEUTRA COM HALTERES SEGURANDO NO MEIO",
+          "sets": "4",
+          "repetitions": "10 (DIR.) + 10 (ESQ.)",
+          "rest": "1 MINUTO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "d-02",
+          "unilateral": true,
+          "sourcePage": 4,
+          "groupId": "d-group-01",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "d-03",
+          "order": 3,
+          "sourceNumber": "03",
+          "name": "REMADA ABERTA NA MÁQUINA",
+          "sets": "4",
+          "repetitions": "12 (DEVAGAR)",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "d-03",
+          "unilateral": false,
+          "sourcePage": 4,
+          "groupId": "d-group-03",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "d-04",
+          "order": 4,
+          "sourceNumber": "04",
+          "name": "ABDOMINAL PARCIAL PERNAS EM 90°",
+          "sets": "4",
+          "repetitions": "20",
+          "rest": "1 MINUTO E MEIO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "d-04",
+          "unilateral": false,
+          "sourcePage": 4,
+          "groupId": "d-group-03",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "d-05",
+          "order": 5,
+          "sourceNumber": "05",
+          "name": "REMADA FECHADA COM HALTERES",
+          "sets": "3",
+          "repetitions": "12",
+          "rest": "0",
+          "method": "CIRCUITO",
+          "notes": [],
+          "imageId": "d-05",
+          "unilateral": false,
+          "sourcePage": 4,
+          "groupId": "d-group-05",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "d-06",
+          "order": 6,
+          "sourceNumber": "06",
+          "name": "CRUCIFIXO INVERTIDO NA MÁQUINA OU NO CROSS",
+          "sets": "3",
+          "repetitions": "12",
+          "rest": "0",
+          "method": "CIRCUITO",
+          "notes": [],
+          "imageId": "d-06",
+          "unilateral": false,
+          "sourcePage": 4,
+          "groupId": "d-group-05",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "d-07",
+          "order": 7,
+          "sourceNumber": "07",
+          "name": "PRANCHA VENTRAL NA BOLA OU NO SOLO",
+          "sets": "3",
+          "repetitions": "40 SEGUNDOS",
+          "rest": "1 MINUTO E MEIO",
+          "method": "CIRCUITO",
+          "notes": [],
+          "imageId": "d-07",
+          "unilateral": false,
+          "sourcePage": 4,
+          "groupId": "d-group-05",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "d-08",
+          "order": 8,
+          "sourceNumber": "08",
+          "name": "ROSCA BÍCEPS COM HALTERES",
+          "sets": "4",
+          "repetitions": "8 (CURTAS EM CIMA) + 8 (COMPLETAS)",
+          "rest": "1 MINUTO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "d-08",
+          "unilateral": false,
+          "sourcePage": 4,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "d-09",
+          "order": 9,
+          "sourceNumber": "09",
+          "name": "REMADA UNILATERAL NO CROSS SENTADA NO BANCO",
+          "sets": "4",
+          "repetitions": "12 (DIR.) + 12 (ESQ.)",
+          "rest": "1 MINUTO E MEIO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "d-09",
+          "unilateral": true,
+          "sourcePage": 4,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "label": "E",
+      "title": "Treino E",
+      "description": "Ficha de referência transcrita integralmente. Conteúdo em revisão profissional.",
+      "sourcePage": 5,
+      "coverImageId": "cover-e",
+      "instructions": [
+        "OBS 1: AUMENTAR A CARGA A PARTIR DA SEGUNDA SÉRIE EM TODOS OS EXERCÍCIOS",
+        "OBS 2: O AERÓBICO PODE SER FEITO EM QUALQUER HORÁRIO DO DIA / ANTES OU APÓS O TREINO OU EM PERÍODO DIFERENTE"
+      ],
+      "groups": [
+        {
+          "id": "e-group-04",
+          "orders": [
+            4,
+            5
+          ],
+          "method": "SUPERSÉRIE"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "e-00",
+          "order": 0,
+          "sourceNumber": "00",
+          "name": "CARDIO DA SUA PREFERÊNCIA (RITMO MODERADO)",
+          "sets": "1 X",
+          "repetitions": "50 MINUTOS",
+          "rest": "",
+          "method": "",
+          "notes": [],
+          "imageId": "e-00",
+          "unilateral": false,
+          "sourcePage": 5,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "cardio"
+        },
+        {
+          "id": "e-01",
+          "order": 1,
+          "sourceNumber": "01",
+          "name": "ELEVAÇÃO PÉLVICA COM BARRA MÉDIA OU NA MÁQUINA",
+          "sets": "7",
+          "repetitions": "10 (SEXTOU BB!!)",
+          "rest": "40 SEGUNDOS",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "e-01",
+          "unilateral": false,
+          "sourcePage": 5,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "e-02",
+          "order": 2,
+          "sourceNumber": "02",
+          "name": "RDL COM BARRA OU HALTER",
+          "sets": "3",
+          "repetitions": "12",
+          "rest": "1 MINUTO E MEIO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "e-02",
+          "unilateral": false,
+          "sourcePage": 5,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "e-03",
+          "order": 3,
+          "sourceNumber": "03",
+          "name": "AGACHAMENTO UNILATERAL NO SMITH SEM COLOCAR O PÉ",
+          "sets": "3",
+          "repetitions": "12 (DIR.) + 12 (ESQ.)",
+          "rest": "1 MINUTO E MEIO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "e-03",
+          "unilateral": true,
+          "sourcePage": 5,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "e-04",
+          "order": 4,
+          "sourceNumber": "04",
+          "name": "MESA FLEXORA (SOBE COM AS DUAS E DESCE COM UMA)",
+          "sets": "3",
+          "repetitions": "10 (DIR.) + 10 (ESQ.)",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "e-04",
+          "unilateral": true,
+          "sourcePage": 5,
+          "groupId": "e-group-04",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "e-05",
+          "order": 5,
+          "sourceNumber": "05",
+          "name": "ABDOMINAL VELA NO SOLO",
+          "sets": "3",
+          "repetitions": "15",
+          "rest": "2 MINUTOS",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "e-05",
+          "unilateral": false,
+          "sourcePage": 5,
+          "groupId": "e-group-04",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "e-06",
+          "order": 6,
+          "sourceNumber": "06",
+          "name": "LEG PRESS 45° UNILATERAL",
+          "sets": "4",
+          "repetitions": "12 (DIR.) + 12 (ESQ.)",
+          "rest": "1 MINUTO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "e-06",
+          "unilateral": true,
+          "sourcePage": 5,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "e-07",
+          "order": 7,
+          "sourceNumber": "07",
+          "name": "EXTENSÃO DE QUADRIL NO CROSS PERNA FLEXIONADA",
+          "sets": "4",
+          "repetitions": "15 (DIR.) + 15 (ESQ.)",
+          "rest": "1 MINUTO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "e-07",
+          "unilateral": true,
+          "sourcePage": 5,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "e-08",
+          "order": 8,
+          "sourceNumber": "08",
+          "name": "ABDOMINAL NA MÁQUINA",
+          "sets": "3",
+          "repetitions": "20",
+          "rest": "1 MINUTO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "e-08",
+          "unilateral": false,
+          "sourcePage": 5,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "label": "F",
+      "title": "Treino F",
+      "description": "Ficha de referência transcrita integralmente. Conteúdo em revisão profissional.",
+      "sourcePage": 6,
+      "coverImageId": "cover-f",
+      "instructions": [
+        "OBS 1: AUMENTAR A CARGA A PARTIR DA SEGUNDA SÉRIE EM TODOS OS EXERCÍCIOS",
+        "OBS 2: O AERÓBICO PODE SER FEITO EM QUALQUER HORÁRIO DO DIA / ANTES OU APÓS O TREINO OU EM PERÍODO DIFERENTE"
+      ],
+      "groups": [
+        {
+          "id": "f-group-01",
+          "orders": [
+            1,
+            2
+          ],
+          "method": "SUPERSÉRIE"
+        },
+        {
+          "id": "f-group-03",
+          "orders": [
+            3,
+            4
+          ],
+          "method": "SUPERSÉRIE"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f-00",
+          "order": 0,
+          "sourceNumber": "00",
+          "name": "CARDIO DA SUA PREFERÊNCIA",
+          "sets": "1 X",
+          "repetitions": "50 MINUTOS",
+          "rest": "",
+          "method": "",
+          "notes": [],
+          "imageId": "f-00",
+          "unilateral": false,
+          "sourcePage": 6,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "cardio"
+        },
+        {
+          "id": "f-01",
+          "order": 1,
+          "sourceNumber": "01",
+          "name": "SUPINO RETO BARRA LIVRE",
+          "sets": "4",
+          "repetitions": "12 (LENTAS)",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "f-01",
+          "unilateral": false,
+          "sourcePage": 6,
+          "groupId": "f-group-01",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "f-02",
+          "order": 2,
+          "sourceNumber": "02",
+          "name": "ABDUÇÃO + FLEXÃO DE OMBROS COM HALTERES",
+          "sets": "4",
+          "repetitions": "12",
+          "rest": "1 MINUTO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "f-02",
+          "unilateral": false,
+          "sourcePage": 6,
+          "groupId": "f-group-01",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "f-03",
+          "order": 3,
+          "sourceNumber": "03",
+          "name": "DESENVOLVIMENTO ARNOLD COM HALTERES",
+          "sets": "4",
+          "repetitions": "12",
+          "rest": "0",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "f-03",
+          "unilateral": false,
+          "sourcePage": 6,
+          "groupId": "f-group-03",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "f-04",
+          "order": 4,
+          "sourceNumber": "04",
+          "name": "ABDOMINAL REMADOR NO SOLO OU NO BANCO",
+          "sets": "4",
+          "repetitions": "15",
+          "rest": "1 MINUTO",
+          "method": "SUPERSÉRIE",
+          "notes": [],
+          "imageId": "f-04",
+          "unilateral": false,
+          "sourcePage": 6,
+          "groupId": "f-group-03",
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "f-05",
+          "order": 5,
+          "sourceNumber": "05",
+          "name": "ROSCA TRÍCEPS COM CORDA NO CROSS",
+          "sets": "3",
+          "repetitions": "8 + DIMINUI A CARGA + 10 + DIMINUI A CARGA + 12",
+          "rest": "1 MINUTO",
+          "method": "DROP-SET",
+          "notes": [],
+          "imageId": "f-05",
+          "unilateral": false,
+          "sourcePage": 6,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "f-06",
+          "order": 6,
+          "sourceNumber": "06",
+          "name": "CRUCIFIXO PEITORAL NA MÁQUINA",
+          "sets": "4",
+          "repetitions": "12",
+          "rest": "1 MINUTO E MEIO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "f-06",
+          "unilateral": false,
+          "sourcePage": 6,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        },
+        {
+          "id": "f-07",
+          "order": 7,
+          "sourceNumber": "07",
+          "name": "PUXADA ABERTA COM CORDA NO CROSS",
+          "sets": "4",
+          "repetitions": "15",
+          "rest": "1 MINUTO",
+          "method": "TRADICIONAL",
+          "notes": [],
+          "imageId": "f-07",
+          "unilateral": false,
+          "sourcePage": 6,
+          "groupId": null,
+          "approvedInstructions": null,
+          "kind": "exercise"
+        }
+      ]
+    }
+  ],
+  "schedules": [
+    {
+      "id": "2-days",
+      "daysPerWeek": 2,
+      "sourcePage": 7,
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": null
+            },
+            {
+              "day": 2,
+              "workoutId": null
+            },
+            {
+              "day": 3,
+              "workoutId": "b"
+            },
+            {
+              "day": 4,
+              "workoutId": null
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "c"
+            },
+            {
+              "day": 1,
+              "workoutId": null
+            },
+            {
+              "day": 2,
+              "workoutId": null
+            },
+            {
+              "day": 3,
+              "workoutId": "d"
+            },
+            {
+              "day": 4,
+              "workoutId": null
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "e"
+            },
+            {
+              "day": 1,
+              "workoutId": null
+            },
+            {
+              "day": 2,
+              "workoutId": null
+            },
+            {
+              "day": 3,
+              "workoutId": "f"
+            },
+            {
+              "day": 4,
+              "workoutId": null
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": null
+            },
+            {
+              "day": 2,
+              "workoutId": null
+            },
+            {
+              "day": 3,
+              "workoutId": "b"
+            },
+            {
+              "day": 4,
+              "workoutId": null
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-days",
+      "daysPerWeek": 3,
+      "sourcePage": 7,
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": null
+            },
+            {
+              "day": 2,
+              "workoutId": "b"
+            },
+            {
+              "day": 3,
+              "workoutId": null
+            },
+            {
+              "day": 4,
+              "workoutId": "c"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "d"
+            },
+            {
+              "day": 1,
+              "workoutId": null
+            },
+            {
+              "day": 2,
+              "workoutId": "e"
+            },
+            {
+              "day": 3,
+              "workoutId": null
+            },
+            {
+              "day": 4,
+              "workoutId": "f"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": null
+            },
+            {
+              "day": 2,
+              "workoutId": "b"
+            },
+            {
+              "day": 3,
+              "workoutId": null
+            },
+            {
+              "day": 4,
+              "workoutId": "c"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "d"
+            },
+            {
+              "day": 1,
+              "workoutId": null
+            },
+            {
+              "day": 2,
+              "workoutId": "e"
+            },
+            {
+              "day": 3,
+              "workoutId": null
+            },
+            {
+              "day": 4,
+              "workoutId": "f"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4-days",
+      "daysPerWeek": 4,
+      "sourcePage": 7,
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": "b"
+            },
+            {
+              "day": 2,
+              "workoutId": null
+            },
+            {
+              "day": 3,
+              "workoutId": "c"
+            },
+            {
+              "day": 4,
+              "workoutId": "d"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "e"
+            },
+            {
+              "day": 1,
+              "workoutId": "f"
+            },
+            {
+              "day": 2,
+              "workoutId": null
+            },
+            {
+              "day": 3,
+              "workoutId": "a"
+            },
+            {
+              "day": 4,
+              "workoutId": "b"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "c"
+            },
+            {
+              "day": 1,
+              "workoutId": "d"
+            },
+            {
+              "day": 2,
+              "workoutId": null
+            },
+            {
+              "day": 3,
+              "workoutId": "e"
+            },
+            {
+              "day": 4,
+              "workoutId": "f"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": "b"
+            },
+            {
+              "day": 2,
+              "workoutId": null
+            },
+            {
+              "day": 3,
+              "workoutId": "c"
+            },
+            {
+              "day": 4,
+              "workoutId": "d"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5-days",
+      "daysPerWeek": 5,
+      "sourcePage": 7,
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": "b"
+            },
+            {
+              "day": 2,
+              "workoutId": "c"
+            },
+            {
+              "day": 3,
+              "workoutId": "d"
+            },
+            {
+              "day": 4,
+              "workoutId": "e"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "f"
+            },
+            {
+              "day": 1,
+              "workoutId": "a"
+            },
+            {
+              "day": 2,
+              "workoutId": "b"
+            },
+            {
+              "day": 3,
+              "workoutId": "c"
+            },
+            {
+              "day": 4,
+              "workoutId": "d"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "e"
+            },
+            {
+              "day": 1,
+              "workoutId": "f"
+            },
+            {
+              "day": 2,
+              "workoutId": "a"
+            },
+            {
+              "day": 3,
+              "workoutId": "b"
+            },
+            {
+              "day": 4,
+              "workoutId": "c"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "d"
+            },
+            {
+              "day": 1,
+              "workoutId": "e"
+            },
+            {
+              "day": 2,
+              "workoutId": "f"
+            },
+            {
+              "day": 3,
+              "workoutId": "a"
+            },
+            {
+              "day": 4,
+              "workoutId": "b"
+            },
+            {
+              "day": 5,
+              "workoutId": null
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6-days",
+      "daysPerWeek": 6,
+      "sourcePage": 7,
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": "b"
+            },
+            {
+              "day": 2,
+              "workoutId": "c"
+            },
+            {
+              "day": 3,
+              "workoutId": "d"
+            },
+            {
+              "day": 4,
+              "workoutId": "e"
+            },
+            {
+              "day": 5,
+              "workoutId": "f"
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": "b"
+            },
+            {
+              "day": 2,
+              "workoutId": "c"
+            },
+            {
+              "day": 3,
+              "workoutId": "d"
+            },
+            {
+              "day": 4,
+              "workoutId": "e"
+            },
+            {
+              "day": 5,
+              "workoutId": "f"
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": "b"
+            },
+            {
+              "day": 2,
+              "workoutId": "c"
+            },
+            {
+              "day": 3,
+              "workoutId": "d"
+            },
+            {
+              "day": 4,
+              "workoutId": "e"
+            },
+            {
+              "day": 5,
+              "workoutId": "f"
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day": 0,
+              "workoutId": "a"
+            },
+            {
+              "day": 1,
+              "workoutId": "b"
+            },
+            {
+              "day": 2,
+              "workoutId": "c"
+            },
+            {
+              "day": 3,
+              "workoutId": "d"
+            },
+            {
+              "day": 4,
+              "workoutId": "e"
+            },
+            {
+              "day": 5,
+              "workoutId": "f"
+            },
+            {
+              "day": 6,
+              "workoutId": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "auditNotes": [
+    "As células mescladas de séries e método foram aplicadas a cada exercício do respectivo grupo. A interface também preserva os grupos.",
+    "Campos vazios de descanso ou método permanecem vazios, sem substituição por valores presumidos.",
+    "A marca ↗ nas fichas foi tratada como indicação de referência de mídia, não como parte do nome. Nenhum vídeo foi incorporado.",
+    "O programa adaptado de 12 páginas não foi incorporado."
+  ]
+}

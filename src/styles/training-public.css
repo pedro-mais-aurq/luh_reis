@@ -1,0 +1,102 @@
+/* The public product preview has no workout data or interactive prescriptions. */
+.training-public { min-height: 100svh; background: var(--paper); }
+.training-header { display: flex; align-items: center; gap: 26px; min-height: 88px; padding: 16px var(--page-gutter); border-bottom: 1px solid var(--border); background: var(--paper); }
+.training-header-title { color: var(--text-muted); font-size: 10px; border-left: 1px solid var(--border); padding-left: 26px; }
+.training-header nav { margin-left: auto; display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; }
+.training-header nav a { display: inline-flex; align-items: center; min-height: 44px; gap: 7px; font-size: 11px; }
+.locked-training { display: grid; grid-template-columns: 1.1fr 1fr; align-items: center; gap: 8vw; padding: 75px var(--page-gutter) 90px; }
+.locked-copy > .eyebrow { color: var(--brown); margin-bottom: 28px; }
+.locked-copy h1 { font-size: clamp(58px, 6.7vw, 104px); max-width: 750px; }
+.locked-copy h1 em { color: var(--brown); }
+.locked-copy > .section-description { margin-top: 28px; max-width: 425px; }
+.locked-access { display: flex; align-items: flex-start; gap: 19px; border-top: 1px solid var(--border); padding-top: 28px; margin: 30px 0; max-width: 425px; }
+.locked-access svg { color: var(--moss); margin-top: 4px; }
+.locked-access h2 { font: 25px/1.2 var(--font-display); letter-spacing: -.02em; }
+.locked-access p { font-size: 12px; color: var(--text-muted); margin-top: 12px; }
+.locked-copy > .text-link { display: flex; width: fit-content; margin-top: 23px; }
+.locked-contact-note { font-size: 10px; margin-top: 13px; max-width: 325px; color: var(--text-muted); }
+.locked-visual { padding: 12px 20px; }
+.public-phone-preview { max-width: 370px; width: 100%; margin: auto; padding: 20px 24px 22px; border: 9px solid var(--moss); border-radius: 40px; background: var(--paper); box-shadow: 25px 25px 0 rgba(125,59,22,.07); color: var(--ink); }
+.phone-camera { width: 46px; height: 5px; margin: 0 auto 24px; background: var(--moss); border-radius: 10px; }
+.phone-brand { display: flex; justify-content: space-between; align-items: center; font-size: 11px; letter-spacing: .16em; padding-bottom: 17px; border-bottom: 1px solid var(--border); }
+.phone-brand > span { letter-spacing: .06em; font-size: 8px; color: var(--brown); }
+.public-phone-preview > .eyebrow { margin-top: 25px; font-size: 8px; color: var(--text-muted); }
+.public-phone-preview > h3 { font: 33px/1.2 var(--font-display); margin: 9px 0 20px; letter-spacing: -.025em; }
+.public-phone-preview > img { width: 100%; background: var(--surface); border-radius: 13px; }
+.phone-exercise { margin-top: 20px; font-size: 11px; }
+.phone-exercise > strong { font-weight: 500; }
+.phone-exercise > div { display: grid; grid-template-columns: 1fr 1.4fr 1fr; gap: 12px; margin-top: 13px; }
+.phone-exercise span { font-size: 8px; color: var(--text-muted); }
+.phone-exercise b { display: block; font-size: 15px; margin-top: 4px; color: var(--ink); }
+.phone-status, .phone-lock { display: flex; align-items: center; gap: 9px; font-size: 9px; padding: 13px 0; border-top: 1px solid var(--border); }
+.phone-status { margin-top: 17px; color: var(--moss); }
+.phone-lock { color: var(--brown); }
+.public-preview-note { font-size: 8px; color: var(--text-muted); line-height: 1.7; }
+.program-actions { display: flex; flex-wrap: wrap; gap: 12px 25px; align-items: center; margin-top: 28px; }
+.program-actions .button { margin-top: 0; }
+.training-public-benefits { padding: 0 var(--page-gutter) 75px; display: flex; flex-direction: column; }
+.training-public-benefits article { display: flex; gap: 33px; align-items: flex-start; padding: 30px 0; border-top: 1px solid var(--border); }
+.training-public-benefits article > span { font: italic 30px/1 var(--font-display); color: var(--terracotta); }
+.training-public-benefits h2 { font-size: 32px; letter-spacing: -.03em; line-height: 1.2; }
+.training-public-benefits p { font-size: 13px; color: var(--text-muted); margin-top: 10px; }
+@media (min-width: 1800px) { .training-header, .locked-training, .training-public-benefits { padding-left: max(var(--page-gutter), calc((100vw - 1630px)/2)); padding-right: max(var(--page-gutter), calc((100vw - 1630px)/2)); } }
+@media (max-width: 1000px) { .training-header-title { display: none; } .locked-training { gap: 35px; } .locked-copy h1 { font-size: clamp(52px, 7vw, 80px); } }
+@media (max-width: 700px) {
+  .training-header { padding: 13px 20px; min-height: 76px; gap: 15px; flex-wrap: wrap; }
+  .training-header img { width: 118px; } .training-header nav { gap: 3px 14px; } .training-header nav a { font-size: 10px; }
+  .locked-training { grid-template-columns: 1fr; padding: 50px 24px 65px; gap: 45px; }
+  .locked-copy h1 { font-size: clamp(52px, 12vw, 79px); }
+  .locked-copy > .eyebrow { font-size: 8px; margin-bottom: 23px; }
+  .locked-visual { padding: 0 12px 0 0; } .public-phone-preview { padding: 20px 20px 18px; border-width: 7px; box-shadow: 13px 15px 0 rgba(125,59,22,.07); }
+  .public-phone-preview h3 { font-size: 30px; } .training-public-benefits { padding: 0 24px 55px; } .training-public-benefits article { gap: 21px; } .training-public-benefits h2 { font-size: 28px; }
+}
+
+/* The public training page shares the warmer, more readable product palette. */
+.training-public .training-header { background: var(--paper); }
+.training-header-title, .training-header nav a { font-size: 13px; }
+.training-public .locked-copy > .section-description { font-size: 17px; }
+.training-public .locked-access h2 { font-size: 30px; }
+.training-public .locked-access p { font-size: 16px; }
+.training-public .locked-copy > .button, .training-public .locked-copy > .text-link { font-size: 15px; }
+.training-public .locked-contact-note { font-size: 14px; }
+.locked-visual { background: var(--moss); padding: 35px 28px; }
+.public-phone-preview { max-width: 420px; }
+.phone-brand { font-size: 14px; }
+.phone-brand > span, .public-phone-preview > .eyebrow { font-size: 11px; }
+.public-phone-preview > h3 { font-size: 38px; }
+.phone-exercise { font-size: 15px; }
+.phone-exercise span { font-size: 11px; }
+.phone-status, .phone-lock { font-size: 12px; }
+.public-preview-note { font-size: 11px; }
+.training-public-benefits { padding-top: 20px; padding-bottom: 45px; }
+.training-public-benefits article { padding: 28px; border: 0; margin-bottom: 12px; background: #dce0d5; }
+.training-public-benefits article:nth-child(2) { background: #ffffff; }
+.training-public-benefits article:nth-child(3) { background: var(--moss); color: var(--paper); }
+.training-public-benefits p { font-size: 16px; }
+.training-public-benefits article:nth-child(3) p, .training-public-benefits article:nth-child(3) > span { color: var(--beige); }
+@media (max-width: 700px) {
+  .training-header nav a { font-size: 12px; }
+  .locked-visual { padding: 25px 18px; }
+  .public-phone-preview { padding-left: 16px; padding-right: 16px; box-shadow: none; }
+  .public-phone-preview > h3 { font-size: 32px; }
+  .phone-exercise > div { gap: 8px; }
+  .training-public-benefits article { padding: 24px 20px; gap: 18px; }
+}
+
+/* Green and white dominate the training interface; warm accents stay in artwork. */
+.training-public, .private-training {
+  --paper: #ffffff;
+  --surface: #f3f5f0;
+  --beige: #e4e8df;
+  --brown: var(--moss);
+  --terracotta: var(--moss);
+  --action: var(--moss);
+  --action-hover: #293126;
+  --focus: var(--moss);
+  --text-muted: #50584d;
+  --border: rgba(63,71,58,.2);
+  --border-light: rgba(255,255,255,.3);
+}
+.training-public .training-public-benefits article > span { color: var(--moss); }
+.training-public .training-public-benefits article:nth-child(3) > span { color: var(--paper); }
+.training-public .public-phone-preview { box-shadow: 20px 20px 0 rgba(63,71,58,.08); }
