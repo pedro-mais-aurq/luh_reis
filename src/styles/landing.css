@@ -64,55 +64,10 @@
 .method-photo .handwritten { position: absolute; color: var(--brown); bottom: -23px; right: -75px; transform: rotate(-7deg); padding: 9px 13px; background: var(--paper); }
 .principle { display: flex; align-items: flex-start; gap: 23px; border-top: 1px solid var(--border); padding: 27px 0; }
 .principle:last-child { border-bottom: 1px solid var(--border); }
-.principle-number { font: italic 28px/1 var(--font-display); color: var(--terracotta); width: 36px; padding-top: 4px; flex-shrink: 0; }
+.principle-number { font: italic 28px/1 var(--font-display); color: var(--moss); width: 36px; padding-top: 4px; flex-shrink: 0; }
 .principle h3 { font: 27px/1.15 var(--font-display); margin-bottom: 12px; letter-spacing: -.02em; }
 .principle p { font-size: 13px; color: var(--text-muted); max-width: 340px; line-height: 1.9; }
 .method-actions { display: flex; flex-direction: column; align-items: flex-start; gap: 13px; margin-top: 32px; }
-.program { background: var(--surface); display: grid; grid-template-columns: .85fr 1fr; gap: 7vw; align-items: center; }
-.program h2 { margin: 28px 0; font-size: clamp(50px, 5.8vw, 92px); }
-.program h2 em { color: var(--brown); }
-.program-copy > .eyebrow { color: var(--brown); }
-.program .button { margin-top: 28px; }
-.program-note { color: var(--text-muted); font-size: 10px; max-width: 325px; margin-top: 23px; }
-.program-visual { position: relative; }
-.program-screen { position: relative; border: 1px solid var(--border); background: var(--paper); box-shadow: 16px 20px 0 rgba(125, 59, 22, .09); }
-.screen-top { padding: 22px 24px; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid var(--border); }
-.screen-top strong { font-size: 11px; font-weight: 500; }
-.screen-symbol { display: grid; place-items: center; width: 27px; height: 27px; background: var(--moss); color: var(--paper); border-radius: 50%; }
-.demo-badge { margin-left: auto; color: var(--brown); background: var(--surface); padding: 4px 7px; font-size: 8px; letter-spacing: .12em; }
-.screen-heading { padding: 27px 24px 20px; }
-.screen-heading .eyebrow { font-size: 8px; color: var(--text-muted); letter-spacing: .12em; }
-.screen-heading h3 { font: 40px/1.2 var(--font-display); margin: 8px 0 5px; }
-.screen-heading p { font-size: 10px; color: var(--text-muted); }
-.workout-tabs { display: flex; gap: 7px; padding: 0 24px 22px; }
-.workout-tabs button { flex: 1; min-width: 0; min-height: 44px; border: 1px solid var(--border); background: transparent; font-size: 11px; transition: background .2s, color .2s; }
-.workout-tabs button[aria-selected="true"] { background: var(--moss); color: var(--paper); border-color: var(--moss); }
-.workout-panel { padding: 0 24px; }
-.movement-placeholder { display: flex; align-items: center; justify-content: center; gap: 17px; padding: 20px 12px; background: var(--surface); color: var(--text-muted); border: 1px dashed rgba(18, 12, 12, .25); font-size: 9px; }
-.demo-exercise { padding: 21px 0 19px; border-bottom: 1px solid var(--border); }
-.exercise-name { display: flex; align-items: center; gap: 10px; font-size: 10px; }
-.exercise-name > span { color: var(--text-muted); font-size: 8px; }
-.exercise-name strong { font-weight: 500; }
-.demo-exercise dl { display: grid; grid-template-columns: .8fr 1.2fr 1fr 1fr; gap: 8px; margin: 15px 0 0 23px; }
-.demo-exercise dt { color: var(--text-muted); font-size: 8px; }
-.demo-exercise dd { margin: 3px 0 0; font-size: 11px; font-weight: 500; }
-.week-preview { padding: 21px 24px; display: flex; align-items: center; gap: 9px; color: var(--moss); }
-.week-preview > span { font-size: 9px; }
-.week-preview > div { display: flex; gap: 5px; margin-left: auto; }
-.week-preview > div > span { width: 22px; height: 25px; display: grid; place-items: center; font-size: 8px; color: var(--text-muted); border: 1px solid var(--border); }
-.week-preview .planned-day { background: var(--beige); color: var(--ink); }
-.screen-bottom { display: flex; justify-content: center; align-items: center; gap: 9px; padding: 14px; border-top: 1px solid var(--border); font-size: 8px; letter-spacing: .1em; color: var(--text-muted); }
-.preview-caption { font-size: 9px; color: var(--text-muted); text-align: center; margin: 29px 8px 0; }
-.access { background: var(--paper); display: grid; grid-template-columns: 1fr 1fr; gap: 8vw; align-items: center; }
-.access h2 { font-size: clamp(44px, 4.7vw, 73px); margin: 28px 0; }
-.access h2 em { color: var(--moss); }
-.availability-pill { display: inline-flex; gap: 9px; align-items: center; border: 1px solid var(--border); font-size: 8px; letter-spacing: .1em; padding: 11px 15px; margin-top: 27px; color: var(--moss); }
-.access-steps ol { list-style: none; padding: 0; margin: 0; }
-.access-steps li { display: grid; grid-template-columns: 52px 1fr; gap: 25px; padding: 28px 0; border-top: 1px solid var(--border); }
-.access-steps li:last-child { border-bottom: 1px solid var(--border); }
-.step-number { font: 44px/1 var(--font-display); letter-spacing: -.04em; color: var(--terracotta); }
-.access-steps h3 { font: 26px/1.2 var(--font-display); margin-bottom: 13px; }
-.access-steps p { color: var(--text-muted); font-size: 13px; max-width: 340px; }
 .faq { background: var(--beige); display: grid; grid-template-columns: .8fr 1fr; gap: 10vw; align-items: start; }
 .faq h2 { font-size: clamp(46px, 5vw, 78px); margin-top: 24px; }
 .faq h2 em { color: var(--brown); }
@@ -163,9 +118,7 @@
   .hero { gap: 4vw; min-height: 780px; }
   .hero-actions { gap: 16px; }
   .hero-handwritten { left: -28px; font-size: 17px; }
-  .about, .method, .access { gap: 6vw; }
-  .program { gap: 5vw; }
-  .week-preview { flex-wrap: wrap; }
+  .about, .method { gap: 6vw; }
 }
 @media (max-width: 1000px) {
   .desktop-nav, .header-contact { display: none; }
@@ -185,13 +138,6 @@
   .method-photo .handwritten { right: -32px; font-size: 16px; }
   .principle { gap: 14px; padding: 23px 0; }
   .principle h3 { font-size: 23px; }
-  .program { grid-template-columns: .8fr 1fr; gap: 30px; }
-  .program h2 { font-size: clamp(46px, 6vw, 65px); }
-  .screen-top, .screen-heading { padding-left: 17px; padding-right: 17px; }
-  .workout-tabs { padding-left: 17px; padding-right: 17px; gap: 5px; }
-  .workout-panel { padding: 0 17px; }
-  .week-preview { padding: 17px; }
-  .week-preview > div { margin-left: 0; }
   .contact { gap: 40px; grid-template-columns: 1fr .75fr; }
   .contact h2 { font-size: clamp(55px, 7vw, 77px); }
   .contact-photo img { height: 440px; }
@@ -235,26 +181,6 @@
   .principle h3 { font-size: 27px; }
   .principle p { font-size: 13px; max-width: 450px; }
   .method-actions { margin-top: 28px; }
-  .program { grid-template-columns: 1fr; gap: 47px; }
-  .program h2 { font-size: clamp(64px, 13.2vw, 86px); margin: 24px 0; }
-  .program-copy > .eyebrow { font-size: 8px; letter-spacing: .12em; }
-  .program-note { max-width: 350px; }
-  .program-screen { box-shadow: 10px 12px 0 rgba(125, 59, 22, .09); }
-  .screen-top { padding: 18px 16px; }
-  .screen-top strong { font-size: 10px; }
-  .screen-heading { padding: 24px 17px 20px; }
-  .workout-tabs { padding-bottom: 20px; }
-  .workout-tabs button { min-height: 44px; }
-  .demo-exercise dl { gap: 5px; margin-left: 0; }
-  .week-preview { gap: 8px; }
-  .week-preview > div { margin-left: auto; }
-  .week-preview > div > span { width: 19px; height: 24px; }
-  .preview-caption { font-size: 8px; margin: 25px 0 0; }
-  .access { grid-template-columns: 1fr; gap: 35px; }
-  .access h2 { font-size: clamp(46px, 10.5vw, 68px); }
-  .access-steps li { gap: 20px; grid-template-columns: 46px 1fr; padding: 26px 0; }
-  .access-steps h3 { font-size: 26px; }
-  .access-steps p { font-size: 13px; max-width: 440px; }
   .faq { grid-template-columns: 1fr; gap: 35px; }
   .faq h2 { font-size: clamp(56px, 12vw, 76px); }
   .faq-item h3 button { font-size: 13px; padding: 22px 0; }
@@ -285,11 +211,6 @@
   .hero-handwritten { font-size: 14px; }
   .about-photo-frame img { height: 360px; }
   .about h2 { font-size: 60px; }
-  .program h2 { font-size: 60px; }
-  .screen-top strong { font-size: 9px; }
-  .demo-badge { font-size: 7px; }
-  .week-preview > div { width: 100%; margin: 5px 0 0; justify-content: space-between; }
-  .week-preview > div > span { width: 28px; }
   .contact h2 { font-size: 49px; }
   .contact-note { font-size: 14px; }
 }

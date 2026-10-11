@@ -1,18 +1,17 @@
 import { describe, expect, it, vi } from 'vitest';
-import { fireEvent, render, screen } from '@testing-library/react';
+import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import { Header } from '../src/components/layout/Header';
 import { FAQ } from '../src/features/landing/sections/FAQ';
-import { PublicTrainingPreview } from '../src/features/training/components/PublicTrainingPreview';
 import { App } from '../src/app/App';
 import { Router } from '../src/app/router';
 
 describe('FAQ', () => {
   it('abre pelo teclado, fecha a resposta anterior e recolhe a atual', async () => {
     const user = userEvent.setup(); render(<FAQ />);
-    const first = screen.getByRole('button', { name: 'O programa já está disponível?' });
-    const second = screen.getByRole('button', { name: 'Como será o acesso ao programa?' });
+    const first = screen.getByRole('button', { name: 'O que encontro no PDF?' });
+    const second = screen.getByRole('button', { name: 'Preciso treinar todos os dias?' });
     first.focus(); await user.keyboard('{Enter}');
     expect(first.getAttribute('aria-expanded')).toBe('true');
     expect(document.getElementById(first.getAttribute('aria-controls')!)?.getAttribute('aria-hidden')).toBe('false');
@@ -38,23 +37,18 @@ describe('Menu mobile', () => {
     expect(screen.getByRole('button', { name: 'Abrir menu' }).getAttribute('aria-expanded')).toBe('false');
   });
 });
-describe('Prévia do produto', () => {
-  it('é uma composição estática, sem navegação por fichas ou prescrições', () => {
-    render(<PublicTrainingPreview />);
-    expect(screen.getByRole('heading', { name: 'Ficha ilustrativa' })).toBeTruthy();
-    expect(screen.queryByRole('tab')).toBeNull();
-    expect(screen.queryByRole('button')).toBeNull();
-    expect(screen.getByText(/Não representa uma ficha/)).toBeTruthy();
-  });
-});
 describe('Landing e rotas', () => {
-  it('resolve todas as âncoras e mantém apresentação logo depois do hero', () => {
+  it('resolve as âncoras e apresenta a personal, o método e o PDF nessa ordem', () => {
     const { container } = render(<MemoryRouter><App /></MemoryRouter>);
     for (const a of container.querySelectorAll<HTMLAnchorElement>('a[href^="#"]')) expect(container.querySelector(a.hash)).not.toBeNull();
     const sections = container.querySelectorAll('main > section');
-    expect(sections[0].id).toBe('inicio'); expect(sections[1].id).toBe('sobre');
+    expect(Array.from(sections, section => section.id)).toEqual(['inicio', 'sobre', 'metodo', 'plano', 'duvidas', 'contato']);
     expect(container.querySelectorAll('h1')).toHaveLength(1);
-    expect(screen.getByRole('link', { name: 'Conhecer o programa' }).getAttribute('href')).toBe('/treinos');
+    expect(screen.getByRole('link', { name: 'Destrave seu primeiro treino' }).getAttribute('href')).toBe('#plano');
+    expect(container.querySelector('a[href*="treinos"]')).toBeNull();
+    expect(screen.queryByRole('tab')).toBeNull();
+    expect(fetch).not.toHaveBeenCalled();
+    expect(screen.getByText('Sou formada em Educação Física há mais de 15 anos, especialista em Treinamento Esportivo e também vivi minha própria transformação, eliminando mais de 20 kg.')).toBeTruthy();
     expect(container.querySelector('a[href*="wa.me"]')).toBeNull();
     expect(screen.getByText('Contato direto em breve')).toBeTruthy();
     expect(container.querySelector('section[aria-label="Relatos reais"]')).toBeNull();
@@ -64,10 +58,12 @@ describe('Landing e rotas', () => {
     const { container } = render(<MemoryRouter><App /></MemoryRouter>);
     expect(container.querySelector('.reveal-ready')).toBeNull();
   });
-  it('respeita subdiretório no router e carrega as fichas públicas', async () => {
-    vi.stubEnv('BASE_URL', '/luh-reis/'); window.history.replaceState({}, '', '/luh-reis/treinos');
+  it('redireciona links antigos ao PDF e respeita o subdiretório', async () => {
+    vi.stubEnv('BASE_URL', '/luh-reis/'); window.history.replaceState({}, '', '/luh-reis/treinos/ficha/A');
     render(<Router />);
-    expect(await screen.findByRole('heading', { name: /Não foi possível carregar os treinos/ })).toBeTruthy();
+    await waitFor(() => expect(window.location.pathname + window.location.hash).toBe('/luh-reis/#plano'));
+    expect(screen.getByRole('region', { name: 'Visualização do PDF' })).toBeTruthy();
+    expect(fetch).not.toHaveBeenCalled();
     window.history.replaceState({}, '', '/');
   });
 });

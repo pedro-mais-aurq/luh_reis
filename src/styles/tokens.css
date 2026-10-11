@@ -10,9 +10,9 @@
   --text-muted: #5e564c;
   --border: rgba(18, 12, 12, .2);
   --border-light: rgba(244, 240, 232, .26);
-  --action: var(--brown);
+  --action: var(--moss);
   --action-hover: var(--ink);
-  --focus: var(--brown);
+  --focus: var(--moss);
   --font-body: 'Poppins', sans-serif;
   --font-display: 'Times New Roman', Times, serif;
   --font-note: 'Coming Soon', cursive;

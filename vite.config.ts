@@ -1,6 +1,5 @@
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
-import { privateReviewPlugin } from './scripts/private-review-server';
 
 export default defineConfig(({ mode }) => {
   const env = { ...loadEnv(mode, process.cwd(), ''), ...process.env };
@@ -9,7 +8,7 @@ export default defineConfig(({ mode }) => {
   const siteUrl = env.VITE_SITE_URL?.replace(/\/$/, '') || '';
   const escaped = siteUrl.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
   return {
-    base, plugins: [react(), privateReviewPlugin(env.LUH_PRIVATE_REVIEW === '1', base), { name: 'luh-seo', transformIndexHtml: (html: string) => html.replace('<!-- SITE_META -->', siteUrl ? `<link rel="canonical" href="${escaped}/"><meta property="og:url" content="${escaped}/"><meta property="og:image" content="${escaped}/assets/brand/social-cover.jpg">` : '') }],
+    base, plugins: [react(), { name: 'luh-seo', transformIndexHtml: (html: string) => html.replace('<!-- SITE_META -->', siteUrl ? `<link rel="canonical" href="${escaped}/"><meta property="og:url" content="${escaped}/"><meta property="og:image" content="${escaped}/assets/brand/social-cover.jpg">` : '') }],
     server: { fs: { deny: ['**/.env*', '**/*.{crt,pem}', '**/.git/**', '**/private/**'] } },
     build: { target: 'es2022', sourcemap: false },
   };

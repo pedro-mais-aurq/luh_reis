@@ -8,5 +8,5 @@ import { Router } from './app/router';
 import './styles/tokens.css';
 import './styles/global.css';
 import './styles/landing.css';
-import './styles/training-public.css';
+import './styles/plan.css';
 createRoot(document.getElementById('root')!).render(<StrictMode><Router /></StrictMode>);

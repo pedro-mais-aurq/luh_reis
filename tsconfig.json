@@ -25,7 +25,6 @@
     "src",
     "tests",
     "vite.config.ts",
-    "vitest.config.ts",
-    "scripts/private-review-server.ts"
+    "vitest.config.ts"
   ]
 }

@@ -38,9 +38,6 @@ p + p { margin-top: 20px; }
 .skip-link:focus { transform: translateY(0); }
 .reveal-ready { opacity: 0; transform: translateY(28px); transition: opacity .8s var(--ease), transform .8s var(--ease); }
 .reveal-ready.is-visible { opacity: 1; transform: translateY(0); }
-.unavailable { min-height: 100svh; padding: var(--page-gutter); display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 26px; }
-.unavailable h1 { max-width: 850px; font-size: clamp(52px, 8vw, 104px); }
-.unavailable > p { max-width: 540px; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }

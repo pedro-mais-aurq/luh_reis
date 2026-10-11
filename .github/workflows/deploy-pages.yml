@@ -35,7 +35,7 @@ jobs:
           VITE_SITE_URL: ${{ steps.pages.outputs.origin }}${{ steps.pages.outputs.base_path }}
           VITE_WHATSAPP_PHONE: ${{ vars.VITE_WHATSAPP_PHONE }}
           VITE_INSTAGRAM_URL: ${{ vars.VITE_INSTAGRAM_URL }}
-      - name: Impedir conteúdo privado no build
+      - name: Validar PDF e remoção da plataforma antiga
         run: npm run audit:public
       - name: Verificar caminhos e assets
         run: node scripts/verify-build.mjs

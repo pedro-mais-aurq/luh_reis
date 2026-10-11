@@ -7,12 +7,11 @@ export const site = {
     instagramUrl: safeExternalUrl(import.meta.env.VITE_INSTAGRAM_URL),
   },
   seo: {
-    title: 'Luh Reis · Seu corpo. Seu ritmo. Sua evolução.',
-    description: 'Movimento com consciência, orientação e constância, no seu ritmo.',
+    title: 'Luh Reis · Destrave Delas',
+    description: 'Conheça a Luh Reis e o método Destrave Delas. Consulte e baixe seu plano de treino para dar o primeiro passo.',
     siteUrl: import.meta.env.VITE_SITE_URL || '',
   },
   legal: { privacyUrl: '', termsUrl: '' },
-  commerce: { provider: null, productId: null, checkoutUrl: null },
 } as const;
 
 export const whatsappUrl = buildWhatsAppUrl(site.contact.whatsappPhone, site.contact.whatsappMessage);

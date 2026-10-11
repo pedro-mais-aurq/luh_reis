@@ -4,7 +4,6 @@ import { navigation } from '../../config/navigation';
 import { content } from '../../features/landing/content';
 import { useActiveSection } from '../../hooks/useActiveSection';
 import { asset } from '../../lib/assets';
-import { ContactLink } from '../ui/ContactLink';
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -37,7 +36,7 @@ export function Header() {
     <header className={`header ${scrolled ? 'header-scrolled' : ''}`}>
       <a className="wordmark" href="#inicio" aria-label="Luh Reis, início"><img src={asset('brand/logo-dark.svg')} width="158" height="40" alt="Luh Reis" /></a>
       <nav className="desktop-nav" aria-label={content.navigation.label}>{navigation.map(n => <a key={n.id} href={`#${n.id}`} aria-current={active === n.id ? 'location' : undefined}>{n.label}</a>)}</nav>
-      <ContactLink className="header-contact">{content.navigation.contact}</ContactLink>
+      <a className="header-contact" href="#plano">{content.navigation.contact}</a>
       <button type="button" ref={trigger} className="menu-trigger" aria-label={content.navigation.open} aria-expanded={open} aria-controls="mobile-menu" onClick={() => setOpen(true)}><Menu size={25} /></button>
     </header>
     <dialog className="mobile-menu" id="mobile-menu" ref={dialog} aria-label={content.navigation.label} onCancel={() => setOpen(false)} onClick={e => { if (e.target === dialog.current) setOpen(false); }}>
